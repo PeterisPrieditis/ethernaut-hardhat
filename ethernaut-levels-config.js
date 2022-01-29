@@ -6,5 +6,9 @@ module.exports = {
     "_03_coin_flip": "0x4dF32584890A0026e56f7535d0f2C6486753624f",
     "_04_telephone": "0x0b6F6CE4BCfB70525A31454292017F640C10c768",
     "_05_token": "0x63bE8347A617476CA461649897238A31835a32CE",
-    "_06_delegation": "0x9451961b7Aea1Df57bc20CC68D72f662241b5493"
+    "_06_delegation": "0x9451961b7Aea1Df57bc20CC68D72f662241b5493",
+    "_07_force": "0x22699e6add7159c3c385bf4d7e1c647ddb3a99ea",
+    "_08_vault": "0xf94b476063b6379a3c8b6c836efb8b3e10ede188",
+    "_09_king": "0x5cece66f3eb19f7df3192ae37c27d96d8396433d",
+    "_10_re_entrancy": "0x848fb2124071146990c7abe8511f851c7f527af4"
 }

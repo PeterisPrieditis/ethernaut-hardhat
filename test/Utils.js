@@ -5,13 +5,13 @@ const ETHERNAUT_LEVELS = require("../ethernaut-levels-config.js")
 const ETHERNAUT_ABI = require("../contracts/abi/ethernaut.json");
 const ETHERNAUT_ADDRESS = ETHERNAUT_LEVELS.ethernaut_address;
 
-async function createChallenge(contractLevel) {
+async function createChallenge(contractLevel, value = 0) {
     try {
         const ethernaut = await ethers.getContractAt(
             ETHERNAUT_ABI,
             ETHERNAUT_ADDRESS
         );
-        let tx = await ethernaut.createLevelInstance(contractLevel);
+        let tx = await ethernaut.createLevelInstance(contractLevel, { value });
         let receipt = await tx.wait();
 
         if (receipt.logs.length === 0) throw new Error("Transaction has no events!");
@@ -25,8 +25,8 @@ async function createChallenge(contractLevel) {
         throw new Error(`createChallenge failed: ${error.message}`);
     }
 }
-async function getLevelContract(ethernautLevel, interfaceContract) {
-    let instanceAddress = await createChallenge(ethernautLevel);
+async function getLevelContract(ethernautLevel, interfaceContract, value = 0) {
+    let instanceAddress = await createChallenge(ethernautLevel, value);
 
     let levelContract = await ethers.getContractAt(
         interfaceContract,
