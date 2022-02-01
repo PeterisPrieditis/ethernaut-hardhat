@@ -10,5 +10,10 @@ module.exports = {
     "_07_force": "0x22699e6add7159c3c385bf4d7e1c647ddb3a99ea",
     "_08_vault": "0xf94b476063b6379a3c8b6c836efb8b3e10ede188",
     "_09_king": "0x5cece66f3eb19f7df3192ae37c27d96d8396433d",
-    "_10_re_entrancy": "0x848fb2124071146990c7abe8511f851c7f527af4"
+    "_10_re_entrancy": "0x848fb2124071146990c7abe8511f851c7f527af4",
+    "_11_elevator": "0xab4f3f2644060b2d960b0d88f0a42d1d27484687",
+    "_12_privacy": "0x11343d543778213221516d004ed82c45c3c8788b",
+    "_13_gatekeeper_one": "0x9b261b23ce149422de75907c6ac0c30cec4e652a",
+    "_14_gatekeeper_two": "0xdcea38b2ce1768e1f409b6c65344e81f16bec38d",
+    "_15_naught_coin": "0x096bb5e93a204bfd701502eb6ef266a950217218"
 }

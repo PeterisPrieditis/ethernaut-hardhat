@@ -13,10 +13,20 @@ async function createChallenge(contractLevel, value = 0) {
         );
         let tx = await ethernaut.createLevelInstance(contractLevel, { value });
         let receipt = await tx.wait();
-
+        //console.log(receipt.logs);
         if (receipt.logs.length === 0) throw new Error("Transaction has no events!");
         let iface = new ethers.utils.Interface(ETHERNAUT_ABI);
-        let log = iface.parseLog(receipt.logs[0]);
+
+        let log;
+        for (let i = 0; i < receipt.logs.length || log == undefined; i++) {
+            try {
+                log = iface.parseLog(receipt.logs[i]);
+            } catch {
+
+            }
+        }
+
+
         let instanceAddress = log.args.instance
 
         return instanceAddress;
