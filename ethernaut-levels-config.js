@@ -15,5 +15,9 @@ module.exports = {
     "_12_privacy": "0x11343d543778213221516d004ed82c45c3c8788b",
     "_13_gatekeeper_one": "0x9b261b23ce149422de75907c6ac0c30cec4e652a",
     "_14_gatekeeper_two": "0xdcea38b2ce1768e1f409b6c65344e81f16bec38d",
-    "_15_naught_coin": "0x096bb5e93a204bfd701502eb6ef266a950217218"
+    "_15_naught_coin": "0x096bb5e93a204bfd701502eb6ef266a950217218",
+    "_16_preservation": "0x97e982a15fbb1c28f6b8ee971bec15c78b3d263f",
+    "_17_recovery": "0x1a1742c8912691c6154d1ad3de0650579f58fc44",
+    "_18_magic_number": "0x200d3d9ac7bfd556057224e7aeb4161fed5608d0",
+    "_19_alien_codex": "0xda5b3fb76c78b6edee6be8f11a1c31ecfb02b272"
 }
