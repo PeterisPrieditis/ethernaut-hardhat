@@ -19,5 +19,8 @@ module.exports = {
     "_16_preservation": "0x97e982a15fbb1c28f6b8ee971bec15c78b3d263f",
     "_17_recovery": "0x1a1742c8912691c6154d1ad3de0650579f58fc44",
     "_18_magic_number": "0x200d3d9ac7bfd556057224e7aeb4161fed5608d0",
-    "_19_alien_codex": "0xda5b3fb76c78b6edee6be8f11a1c31ecfb02b272"
+    "_19_alien_codex": "0xda5b3fb76c78b6edee6be8f11a1c31ecfb02b272",
+    "_20_denial": "0xce1bb92eeb71af5fec09d38b0c854d55285f6e04",
+    "_21_shop": "0x3acd4766f1769940ca010a907b3c8debce0bd4ab",
+    "_22_dex": "0x0b0276f85ef92432fbd6529e169d9de4ad337b1f"
 }
