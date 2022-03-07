@@ -22,5 +22,7 @@ module.exports = {
     "_19_alien_codex": "0xda5b3fb76c78b6edee6be8f11a1c31ecfb02b272",
     "_20_denial": "0xce1bb92eeb71af5fec09d38b0c854d55285f6e04",
     "_21_shop": "0x3acd4766f1769940ca010a907b3c8debce0bd4ab",
-    "_22_dex": "0x0b0276f85ef92432fbd6529e169d9de4ad337b1f"
+    "_22_dex": "0x0b0276f85ef92432fbd6529e169d9de4ad337b1f",
+    "_23_dex_two": "0xd2ba82c4777a8d619144d32a2314ee620bc9e09c",
+    "_24_puzzle_wallet": "0x440bcea590a77445c24ff623113978449351feb1"
 }
