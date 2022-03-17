@@ -1,1 +1,1 @@
-Solving ethernaut with Brownie
+Solving ethernaut with Hardhat
